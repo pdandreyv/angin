@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'helioscondcregular';
+    src: url('custom_fonts/helioscondc-webfont.eot');
+    src: url('custom_fonts/helioscondc-webfont.eot?#iefix') format('embedded-opentype'),
+         url('custom_fonts/helioscondc-webfont.woff2') format('woff2'),
+         url('custom_fonts/helioscondc-webfont.woff') format('woff'),
+         url('custom_fonts/helioscondc-webfont.ttf') format('truetype'),
+         url('custom_fonts/helioscondc-webfont.svg#helioscondcregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
