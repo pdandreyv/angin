@@ -10,3 +10,6 @@ Version:        1.0
 
 
 /* Your css goes here */
+.custom_font {
+    font-family: helioscondcregular;
+}
