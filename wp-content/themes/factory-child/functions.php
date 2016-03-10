@@ -17,7 +17,9 @@ function cg_reorder_child_css() {
 	wp_register_style( 'cg-child-styles', get_stylesheet_uri() );
 	wp_enqueue_style( 'cg-commercegurus' );
 	wp_enqueue_style( 'cg-responsive' );
+    wp_enqueue_style( 'custom-fonts', get_stylesheet_directory_uri() . '/css/custom-fonts.css' );
 	wp_enqueue_style( 'cg-child-styles' );
+
 }
 
 add_action( 'wp_enqueue_scripts', 'cg_reorder_child_css', 101 );
