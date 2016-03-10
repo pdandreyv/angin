@@ -13,3 +13,11 @@ Version:        1.0
 .custom_font {
     font-family: helioscondcregular;
 }
+h5, .content-area h5 {
+    color: #222;
+    font-family: helioscondcregular;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+}
