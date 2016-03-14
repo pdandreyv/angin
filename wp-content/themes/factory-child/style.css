@@ -21,3 +21,45 @@ h5, .content-area h5 {
     font-weight: 300;
     line-height: 30px;
 }
+/*video*/
+#top_video {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    height: 400px;
+
+}
+#video_background {
+    width: 100%;
+    position: relative;
+    /*top:-100px;*/
+}
+#top_video > img {
+    width: 100%;
+}
+#top_video::after {
+    background-image: url("img/setka.png");
+    content: "";
+    display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+#top_video > p {
+    color: #ffffff;
+    display: block;
+    font-family: helveticaneuecyr;
+    font-size: 30px;
+    line-height: 40px;
+    max-width: 100%;
+    position: absolute;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    top: 36%;
+    width: 1240px;
+    z-index: 3;
+}
