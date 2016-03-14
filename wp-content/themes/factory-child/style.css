@@ -8,19 +8,13 @@ Template:       factory
 Version:        1.0
 */
 
+.cg-primary-menu .menu > li > a, ul.tiny-cart > li > a, .rightnav .cart_subtotal{
+    font-family: helioscondcregular !important;
+}
+h1, h2, h3, h4, h5, h6  {
+    font-family: helioscondcregular !important;
+}
 
-/* Your css goes here */
-.custom_font {
-    font-family: helioscondcregular;
-}
-h5, .content-area h5 {
-    color: #222;
-    font-family: helioscondcregular;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: 30px;
-}
 /*video*/
 #top_video {
     overflow: hidden;
