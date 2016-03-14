@@ -64,3 +64,52 @@ h2::after{
     width: 1240px;
     z-index: 3;
 }
+
+#products_func {
+    margin: 0 -5px;
+    padding: 70px 0;
+    position: relative;
+}
+#products_func::before {
+    background-color: #000000;
+    content: "";
+    display: block;
+    height: 185px;
+    left: -6%;
+    position: absolute;
+    top: 0;
+    width: 1px;
+}
+#products_func .func {
+    border: 1px solid #cacaca;
+    display: block;
+    height: 210px;
+    padding: 40px 15px;
+    -webkit-transition: border-color 0.3s ease 0s;
+    -o-transition: border-color 0.3s ease 0s;
+    -moz-transition: border-color 0.3s ease 0s;
+    transition: border-color 0.3s ease 0s;
+}
+#products_func .func:hover {
+    border-color: #323337;
+}
+#products_func .text {
+    color: #787878;
+    font-size: 13px;
+    padding-left: 10px;
+}
+#products_func .svg {
+    max-height: 100%;
+}
+
+#menu-main-menu .cg-submenu-ddown {
+    width: 400px;
+}
+#menu-main-menu .cg-submenu-ddown li {
+    width: 200px;
+    float: left;
+}
+#menu-main-menu .container > ul > li:first-child a {
+    margin-top: -1px;
+}
+
