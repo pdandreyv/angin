@@ -242,6 +242,9 @@ a:hover #three_func .st3_3{
 #products_func .func:hover > .num {
     color: #e4a600;
 }
-
+/*more button*/
+.more-link, .more-link:hover{
+    color: #323337;
+}
 
 
