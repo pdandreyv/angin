@@ -276,7 +276,7 @@ a:hover #three_func .st3_3{
 }
 
 .button_a:hover {
-     color: #111;
+     color: #111 !important;
 }
 
 
