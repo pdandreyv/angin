@@ -9,10 +9,14 @@ Version:        1.0
 */
 
 .cg-primary-menu .menu > li > a, ul.tiny-cart > li > a, .rightnav .cart_subtotal{
-    font-family: helioscondcregular !important;
+    font-family: helioscondc !important;
 }
-h1, h2, h3, h4, h5, h6  {
-    font-family: helioscondcregular !important;
+h1, h3, h4, h5, h6  {
+    font-family: helioscondc !important;
+}
+h2 {
+    font-family: helioscondc-bold !important;
+    font-size: 36px;
 }
 h2::after{
     background-color: #e4a600;
