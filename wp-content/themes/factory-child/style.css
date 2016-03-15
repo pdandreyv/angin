@@ -65,6 +65,19 @@ h2::after{
     z-index: 3;
 }
 
+/*2column menu*/
+#menu-main-menu .cg-submenu-ddown {
+    width: 400px;
+}
+#menu-main-menu .cg-submenu-ddown li {
+    width: 200px;
+    float: left;
+}
+#menu-main-menu .container > ul > li:first-child a {
+    margin-top: -1px;
+}
+
+/*products*/
 #products_func {
     margin: 0 -5px;
     padding: 70px 0;
@@ -95,21 +108,138 @@ h2::after{
 }
 #products_func .text {
     color: #787878;
-    font-size: 13px;
+    font-size: 11px;
     padding-left: 10px;
+    width: 62.5%
 }
 #products_func .svg {
     max-height: 100%;
+    float: left;
+    width: 37.5%;
+}
+.st0{
+    fill: #fff;
+    stroke: #BABABA;
+    stroke-width: 2;
+    stroke-miterlimit: 10;
+}
+.st1{
+    fill: #d2d2d2;
+}
+.st2{
+    fill: #717171;
+}
+.st3{
+    fill: #505050;
+    enable-background: red;
+}
+.st0_2{
+    fill: #ffffff;
+    stroke: #BABABA;
+    stroke-width: 1;
+}
+.st1_2{
+    fill: #ffffff;
+    stroke: #BABABA;
+    stroke-width: 1;
+    stroke-linejoin: round;
+}
+.st2_2{
+    fill: #ffffff;
+    stroke: #BABABA;
+    stroke-width: 2;
+    stroke-linejoin: round;
+}
+.st3_2{
+    fill: #717171;
+}
+.st4_2{
+    fill: #505050;
+}
+.st5_2{
+    fill: #D2D2D2;
+}
+.st0_3{
+    fill: #ffffff;
+    stroke: #BABABA;
+    stroke-width: 2;
+    stroke-linejoin: round;
+}
+.st1_3{
+    fill: #ffffff;
+    stroke: #BABABA;
+    stroke-width: 2;
+    stroke-miterlimit: 10;
+}
+.st2_3{
+    fill: #BABABA;
+}
+.st3_3{
+    fill: #ffffff;
+    stroke: #BABABA;
+    stroke-width: 1;
+}
+.st4_3{
+    fill: #717171;
+}
+.st5_3{
+    fill: #505050;
+}
+#products_func .func .st0, #second_func .st0_2, #second_func .st2_2, #three_func .st1_3, #three_func .st0_3, #three_func .st2_3, #three_func .st3_3 {
+    -webkit-transition: fill 0.3s ease 0s;
+    -o-transition: fill 0.3s ease 0s;
+    -moz-transition: fill 0.3s ease 0s;
+    transition: fill 0.3s ease 0s;
+}
+a:hover #first_func .st0{
+    fill: #70B1D5;
+    stroke: #70B1D5;
+}
+a:hover #first_func .st0{
+    fill: #70B1D5;
+}
+a:hover #second_func .st0_2{
+    fill: #F8BD2E;
+    stroke: #F8BD2E;
+}
+a:hover #second_func .st2_2{
+    fill: #70B1D5;
+    stroke: #70B1D5;
+}
+a:hover #three_func .st1_3{
+    fill: #70B1D5;
+    stroke: #70B1D5;
+}
+a:hover #three_func .st0_3{
+    fill: #70B1D5;
+    stroke: #70B1D5;
+}
+a:hover #three_func .st2_3{
+    fill: #70B1D5;
+}
+a:hover #three_func .st3_3{
+    fill: #F8BD2E;
+}
+#products_func .func > .num {
+    background-color: #ffffff;
+    color: #cacaca;
+    font-family: helioscondc;
+    font-size: 70px;
+    font-weight: bold;
+    left: 37px;
+    line-height: 52px;
+    position: absolute;
+    text-align: center;
+    top: -27px;
+    -webkit-transition: color 0.3s ease 0s;
+    -o-transition: color 0.3s ease 0s;
+    -moz-transition: color 0.3s ease 0s;
+    transition: color 0.3s ease 0s;
+    width: 80px;
+}
+#products_func .func:hover > .num {
+    color: #e4a600;
 }
 
-#menu-main-menu .cg-submenu-ddown {
-    width: 400px;
-}
-#menu-main-menu .cg-submenu-ddown li {
-    width: 200px;
-    float: left;
-}
-#menu-main-menu .container > ul > li:first-child a {
-    margin-top: -1px;
-}
+
 
