@@ -261,6 +261,10 @@ a:hover #three_func .st3_3{
 .choose_title h5{
     color: #FFF !important;
     text-transform: uppercase;
+    margin-bottom: 10px !important;
+}
+.choose_title {
+    margin-bottom: 0;
 }
 .choose_text p {
     padding: 0 10px 0 60px;
