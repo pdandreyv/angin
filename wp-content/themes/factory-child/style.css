@@ -28,8 +28,6 @@ h2::after{
     position: relative;
     width: 100%;
     z-index: 1;
-    height: 400px;
-
 }
 #video_background {
     width: 100%;
