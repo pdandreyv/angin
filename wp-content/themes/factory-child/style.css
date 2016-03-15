@@ -244,7 +244,7 @@ a:hover #three_func .st3_3{
 }
 /*more button*/
 .more-link, .more-link:hover{
-    color: #323337;
+    color: #323337 !important;
 }
 
 
