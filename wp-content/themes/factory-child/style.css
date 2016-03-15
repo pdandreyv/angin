@@ -68,14 +68,14 @@ h2::after{
 }
 
 /*2column menu*/
-#menu-main-menu .cg-submenu-ddown {
+#menu-main-menu .cg-submenu-ddown, #menu-main-menu-1 .cg-submenu-ddown {
     width: 400px;
 }
-#menu-main-menu .cg-submenu-ddown li {
+#menu-main-menu .cg-submenu-ddown li, #menu-main-menu-1 .cg-submenu-ddown li {
     width: 200px;
     float: left;
 }
-#menu-main-menu .container > ul > li:first-child a {
+#menu-main-menu .container > ul > li:first-child a, #menu-main-menu-1 .container > ul > li:first-child a {
     margin-top: -1px;
 }
 
