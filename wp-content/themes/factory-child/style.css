@@ -284,4 +284,8 @@ a:hover #three_func .st3_3{
      color: #111 !important;
 }
 
+.second-footer ul.inline li.youtube a::before  {
+    position: fixed;
+}
+
 
