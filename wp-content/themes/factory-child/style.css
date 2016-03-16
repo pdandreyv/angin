@@ -284,8 +284,8 @@ a:hover #three_func .st3_3{
      color: #111 !important;
 }
 
-.second-footer ul.inline li.youtube a::before  {
-    margin-left: 10px;
+.second-footer ul.inline.right li {
+    margin-left: 30px;
 }
 
 
