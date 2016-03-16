@@ -287,5 +287,7 @@ a:hover #three_func .st3_3{
 .second-footer ul.inline.right li {
     margin-left: 30px;
 }
-
+.woocommerce ul.products li.product, .woocommerce-page ul.products li.product {
+    width: 22.05% !important;
+}
 
