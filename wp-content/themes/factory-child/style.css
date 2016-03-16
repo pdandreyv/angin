@@ -285,7 +285,7 @@ a:hover #three_func .st3_3{
 }
 
 .second-footer ul.inline li.youtube a::before  {
-    position: fixed;
+    margin-left: 10px;
 }
 
 
