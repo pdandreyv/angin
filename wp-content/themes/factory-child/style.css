@@ -7,11 +7,11 @@ Author URI:     http://www.commercegurus.com
 Template:       factory
 Version:        1.0
 */
-
+/*Шрифты*/
 .cg-primary-menu .menu > li > a, ul.tiny-cart > li > a, .rightnav .cart_subtotal{
     font-family: helioscondc !important;
 }
-h1, h3, h4, h5, h6  {
+h1, h3, h5, h6  {
     font-family: helioscondc !important;
 }
 h2, #header_h h2 {
@@ -23,6 +23,9 @@ h2, #header_h h2 {
     color: #FFF !important;
     text-transform: uppercase;
 }
+h4.feature a {
+    font-family: helioscondc;
+}
 h2::after{
     background-color: #e4a600;
     content: "";
@@ -31,6 +34,7 @@ h2::after{
     margin-top: 15px;
     width: 80px;
 }
+
 /*video*/
 #top_video {
     overflow: hidden;
@@ -53,21 +57,21 @@ h2::after{
     height: 100%;
     left: 0;
     position: absolute;
-    top: 0;
+    top: -7px;
     width: 100%;
     z-index: 2;
 }
 #top_video > p {
     color: #ffffff;
     display: block;
-    font-family: helveticaneuecyr;
+    font-family: helioscondc;
     font-size: 30px;
     line-height: 40px;
     max-width: 100%;
     position: absolute;
     text-align: center;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
-    top: 36%;
+    top: 47%;
     width: 1240px;
     z-index: 3;
 }
@@ -259,6 +263,7 @@ a:hover #three_func .st3_3{
 
 }
 .choose_title h5{
+    font-family: inherit !important;
     color: #FFF !important;
     text-transform: uppercase;
     margin-bottom: 10px !important;
