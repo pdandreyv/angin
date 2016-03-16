@@ -23,5 +23,4 @@ function cg_reorder_child_css() {
 }
 
 add_action( 'wp_enqueue_scripts', 'cg_reorder_child_css', 101 );
-
 ?>

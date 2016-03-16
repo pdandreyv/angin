@@ -26,7 +26,8 @@ if ( ! function_exists( 'factory_before_content' ) ) {
 		?>
 		<div class="container cg-shop-main">
 			<div class="row row-eq-height">
-				<div class="col-lg-9 col-md-9 col-sm-12 col-md-push-3 col-lg-push-3">
+<!--			<div class="col-lg-9 col-md-9 col-sm-12 col-md-push-3 col-lg-push-3">-->
+                <div>
 	    	<?php
 	}
 }
