@@ -72,7 +72,7 @@ h2::after{
     text-align: center;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
     top: 47%;
-    width: 1240px;
+    width: 100%;
     z-index: 3;
 }
 
@@ -265,6 +265,9 @@ a:hover #three_func .st3_3{
 .choose_title h5{
     font-family: inherit !important;
     color: #FFF !important;
+    line-height: 18px !important;
+    font-weight: 500 !important;
+    font-size: 18px !important;
     text-transform: uppercase;
     margin-bottom: 10px !important;
 }
@@ -289,5 +292,9 @@ a:hover #three_func .st3_3{
 }
 .woocommerce ul.products li.product, .woocommerce-page ul.products li.product {
     width: 22.05% !important;
+}
+/*Убрать sku, Product Description*/
+.product_meta.sku_wrapper, #tab-description h2 {
+    display: none;
 }
 
