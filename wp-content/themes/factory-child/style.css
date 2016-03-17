@@ -294,12 +294,12 @@ a:hover #three_func .st3_3{
     width: 22.05% !important;
 }
 /*Убрать sku, Product Description*/
-.product_meta.sku_wrapper, #tab-description h2 {
+.product_meta .sku_wrapper, #tab-description h2 {
     display: none;
 }
 
 .woocommerce-message {
-    background-color: #FFF;
+    background-color: #FFF !important;
 }
 
 
