@@ -325,5 +325,8 @@ img.tachka {
 .first-footer {
     margin-bottom: 0 !important;
 }
+.page-container {
+    top: 0 !important;
+}
 
 
