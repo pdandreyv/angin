@@ -299,10 +299,13 @@ a:hover #three_func .st3_3{
 }
 
 .woocommerce-message {
-    background-color: #FFF !important;
+    background-color: #e4a600 !important;
 }
 .woocommerce-message a.button{
-    background-color: #e4a600 !important;
+    background-color: #FFF !important;
+}
+.woocommerce .woocommerce-message::before {
+    color: #000 !important;
 }
 
 
