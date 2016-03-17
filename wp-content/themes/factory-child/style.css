@@ -301,5 +301,8 @@ a:hover #three_func .st3_3{
 .woocommerce-message {
     background-color: #FFF !important;
 }
+.woocommerce .woocommerce-message .button {
+    background-color: #e4a600 importent;
+}
 
 
