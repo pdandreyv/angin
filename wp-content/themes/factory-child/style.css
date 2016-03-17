@@ -322,5 +322,8 @@ img.tachka {
     z-index: 9999;
     position: static;
 }
+.first-footer {
+    margin-bottom: 0 !important;
+}
 
 
