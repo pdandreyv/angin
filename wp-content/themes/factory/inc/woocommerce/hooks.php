@@ -13,5 +13,7 @@ remove_filter( 'woocommerce_show_page_title', 'filter_woocommerce_show_page_titl
 
 add_action( 'woocommerce_before_main_content', 'factory_header_before_content', 10 );
 add_action( 'woocommerce_before_main_content', 'factory_before_content', 10 );
+add_action( 'woocommerce_before_main_content_single', 'factory_header_before_content', 10 );
 add_action( 'woocommerce_before_main_content_single', 'factory_before_content_single', 10 );
+
 add_action( 'woocommerce_after_main_content',  'factory_after_content', 10 );

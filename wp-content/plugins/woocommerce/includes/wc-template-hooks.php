@@ -35,6 +35,8 @@ add_action( 'get_the_generator_xhtml', 'wc_generator_tag', 10, 2 );
  */
 add_action( 'woocommerce_before_main_content', 'woocommerce_output_content_wrapper', 10 );
 add_action( 'woocommerce_after_main_content', 'woocommerce_output_content_wrapper_end', 10 );
+add_action( 'woocommerce_before_main_content_single', 'woocommerce_output_content_wrapper', 10 );
+add_action( 'woocommerce_before_main_content_single', 'woocommerce_output_content_wrapper_end', 10 );
 
 /**
  * Sale flashes.
