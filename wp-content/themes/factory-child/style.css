@@ -320,6 +320,7 @@ img.tachka {
 
 .second-footer {
     z-index: 9999;
+    position: static;
 }
 
 
