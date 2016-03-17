@@ -328,5 +328,8 @@ img.tachka {
 .page-container {
     top: 0 !important;
 }
+.cd-top {
+    z-index: 99999 !important;
+}
 
 
