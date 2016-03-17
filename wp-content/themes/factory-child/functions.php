@@ -23,4 +23,11 @@ function cg_reorder_child_css() {
 }
 
 add_action( 'wp_enqueue_scripts', 'cg_reorder_child_css', 101 );
+
+add_filter('loop_shop_per_page', create_function('$cols', 'return 16;'));
+add_filter( 'loop_shop_per_page', function ( $cols ) {
+    // $cols contains the current number of products per page based on the value stored on Options -> Reading
+    // Return the number of products you wanna show per page.
+    return 16;
+}, 90 );
 ?>
