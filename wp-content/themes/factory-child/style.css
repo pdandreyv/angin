@@ -313,7 +313,7 @@ img.tachka {
     height: 12px;
     margin-right: 10px;
 }
-.widget.button.icon.button_a {
+.widget.button.icon .button_a {
     padding-left: 0 !important;
 }
 
